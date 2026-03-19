@@ -4,9 +4,9 @@
     --color-verde: #d4edda;
     --color-naranja: #fff3cd;
     --color-rojo: #f8d7da;
-    --color-verde-texto: #155724;
+    --color-verde-texto: #155624;
     --color-naranja-texto: #856404;
-    --color-rojo-texto: #721c24;
+    --color-rojo-texto: #731c25;
     --color-verde-borde: #c3e6cb;
     --color-naranja-borde: #ffeaa7;
     --color-rojo-borde: #f5c6cb;
@@ -104,6 +104,12 @@ body {
     border-color: var(--color-verde-borde);
 }
 
+.box-verde {
+    opacity: 1; 
+    color: #212529; 
+    background-color: #28d785;
+}
+
 .color-box.naranja {
     background-color: var(--color-naranja);
     border-color: var(--color-naranja-borde);
@@ -124,6 +130,12 @@ body {
     margin-top: 10px;
     padding-top: 10px;
     border-top: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+.enlaces {
+    opacity: 1; 
+    color: #0244a7; 
+    background-color: #f8f9fa;    
 }
 
 /* Estado del producto */
